@@ -1,0 +1,47 @@
+# ==============================
+# 1. Python Artifacts
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# 2. C / C++ Build Artifacts
+# ==============================
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+a.out
+
+# ==============================
+# 3. Geminette Specific Binaries
+# ==============================
+putchar
+print_alphabet
+print_reverse_alphabet
+print_numbers
+is_negative
+print_comb
+print_comb2
+putnbr
+print_combn
+ft
+ultimate_ft
+swap
+div_mod
+ultimate_div_mod
+putstr
+strlen
+rev_int_tab
+sort_int_tab
+
+# ==============================
+# 4. OS & Editor Junk
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
