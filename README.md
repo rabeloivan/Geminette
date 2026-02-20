@@ -57,13 +57,30 @@ echo "alias geminette='python3 ~/Geminette/main.py'" >> ~/.bashrc && source ~/.b
 ```
 
 ## Usage Examples
-* Test an entire module: `geminette`
+
+### Test an entire module
+Navigate to your active module directory and simply call the framework:
+```bash
+➜  C01 geminette
+```
 ![Geminette testing an entire module (1)](assets/entire_module_1.png)
 ![Geminette testing an entire module (2)](assets/entire_module_2.png)
 ![Geminette testing an entire module (3)](assets/entire_module_3.png)
-* Test a specific exercise (you can use either the exercise folder’s name or the file’s name): `geminette ex00` or `geminette ft_putchar.c`
+
+### Test a specific exercise
+You can target a single exercise by passing either the folder name or the file name:
+```bash
+➜  C00 geminette ex00
+```
+```bash
+➜  C00 geminette ft_putchar.c
+```
 ![Geminette testing a specific exercise](assets/specific_exercise.png)
-* Test more than one specific file: `geminette ft_putchar.c ft_print_alphabet.c ft_print_numbers.c`
+
+### Test more than one specific file:
+```bash
+➜  geminette ft_putchar.c ft_print_alphabet.c ft_print_numbers.c
+```
 ![Geminette testing more than one specific file](assets/more_than_one_specific_file.png)
 
 ## How to Update Geminette
