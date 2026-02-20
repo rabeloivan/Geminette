@@ -3,8 +3,6 @@
 
 Built in Python, it acts as a local "Moulinette," automatically compiling student C files against hidden test harnesses, checking for strict Norminette compliance, and executing edge-case logic tests with a beautiful, standardized terminal UI.
 
----
-
 ## Features
 * **Dynamic Targeting:** Test an entire module, a single exercise, or a specific C file directly from the command line.
 * **Pixel-Perfect UI:** Utilizes the `rich` library for a gorgeous terminal interface. It intelligently handles raw integers, C-style characters, and strings, fully exposing hidden characters (like `\n` or `\t`) without breaking formatting.
@@ -12,15 +10,11 @@ Built in Python, it acts as a local "Moulinette," automatically compiling studen
 * **Strict Norminette Integration:** Automatically runs `norminette -R CheckForbiddenSourceHeader` before compilation to ensure 100% 42-compliance.
 * **Dynamic Scoring:** Calculates a final score out of 100 based on the exact batch of files you targeted.
 
----
-
 ## Supported Modules
 Currently, Geminette includes comprehensive test suites for the following Piscine modules:
 - [x] **C 00** (Basic variables, loops, and printing)
 - [x] **C 01** (Pointers, arrays, and basic algorithms)
 - [ ] **C 02** *(In development)*
-
----
 
 ## Prerequisites
 To run Geminette, your environment must have a few standard tools installed. Since 42 environments are typically macOS or Linux, here is how to get everything you need:
@@ -46,7 +40,7 @@ pipx ensurepath
 Clone the repository directly into your home directory so it can be easily accessed from any module folder:
 ```bash
 git clone [https://github.com/rabeloivan/Geminette.git](https://github.com/rabeloivan/Geminette.git) ~/Geminette
-```
+````
 
 ## How to Create an Alias
 To make testing as fast as possible, you shouldn't have to type the full Python path every time. Create a global alias so you can just type `geminette` from any folder.
@@ -64,8 +58,13 @@ echo "alias geminette='python3 ~/Geminette/main.py'" >> ~/.bashrc && source ~/.b
 
 ## Usage Examples
 * Test an entire module: `geminette`
-* Test a specific exercise: `geminette ex00`
-* Test a specific file: `geminette ft_putchar.c`
+![Geminette testing an entire module (1)](assets/entire_module_1.png)
+![Geminette testing an entire module (2)](assets/entire_module_2.png)
+![Geminette testing an entire module (3)](assets/entire_module_3.png)
+* Test a specific exercise (you can use either the exercise folder’s name or the file’s name): `geminette ex00` or `geminette ft_putchar.c`
+![Geminette testing a specific exercise](assets/specific_exercise.png)
+* Test more than one specific file: `geminette ft_putchar.c ft_print_alphabet.c ft_print_numbers.c`
+![Geminette testing more than one specific file](assets/more_than_one_specific_file.png)
 
 ## How to Update Geminette
 Whenever new modules (like C02, C03, etc.) are added to the framework, you can easily pull the latest updates from GitHub.
