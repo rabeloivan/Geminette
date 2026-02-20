@@ -37,7 +37,7 @@ def animate_header():
 			sys.stdout.flush()
 	
 	print()
-	msg = "Geminette version 1.0.0 (12 Feb 2026)"
+	msg = "Geminette version 0.1.0 (20 Feb 2026)"
 	console.print(Text(f"{msg:^75s}", style="italic bright_black"))
 	print()
 	console.print(Text("-" * 75, style="bright_black"))

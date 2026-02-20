@@ -92,7 +92,7 @@ cd ~/Geminette && git pull && cd -
 ```
 
 ## Inspiration & Acknowledgements
-Geminette was heavily inspired by the incredible tools built by the 42 community before it—specifically Francinette and Mini Moulinette. This project aims to carry on their legacy of helping students rigorously test their code, while introducing a modern, fast, and highly customizable Python-based architecture.
+Geminette was heavily inspired by the incredible tools built by the 42 community before it—specifically [Francinette](https://github.com/xicodomingues/francinette) and Mini [Moulinette](https://github.com/k11q/mini-moulinette). This project aims to carry on their legacy of helping students rigorously test their code, while introducing a modern, fast, and highly customizable Python-based architecture.
 
 ## Authors
 * Ivan Rabelo (rabeloivan) student at 42 - Creator & Lead Architect
