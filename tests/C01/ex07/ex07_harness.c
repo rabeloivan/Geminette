@@ -6,7 +6,7 @@
 /*   By: rabeloivan <rabeloivan@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/19 16:27:32 by rabeloivan        #+#    #+#             */
-/*   Updated: 2026/02/19 22:21:54 by rabeloivan       ###   ########.fr       */
+/*   Updated: 2026/02/23 21:07:10 by rabeloivan       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int	main(void)
 			printf("%d", tab[i]);
 			if (i < size - 1)
 				printf(" ");
-				i++;
+			i++;
 		}
 	}
 	return (0);

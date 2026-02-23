@@ -36,11 +36,12 @@ sudo apt install pipx
 pipx install norminette
 pipx ensurepath
 ```
+
 ## How to Install
 Clone the repository directly into your home directory so it can be easily accessed from any module folder:
 ```bash
-git clone [https://github.com/rabeloivan/Geminette.git](https://github.com/rabeloivan/Geminette.git) ~/Geminette
-````
+git clone https://github.com/rabeloivan/Geminette.git ~/Geminette
+```
 
 ## How to Create an Alias
 To make testing as fast as possible, you shouldn't have to type the full Python path every time. Create a global alias so you can just type `geminette` from any folder.
@@ -72,6 +73,7 @@ You can target a single exercise by passing either the folder name or the file n
 ```bash
 ➜  C00 geminette ex00
 ```
+or
 ```bash
 ➜  C00 geminette ft_putchar.c
 ```
@@ -95,11 +97,11 @@ cd ~/Geminette && git pull && cd -
 Geminette was heavily inspired by the incredible tools built by the 42 community before it—specifically [Francinette](https://github.com/xicodomingues/francinette) and Mini [Moulinette](https://github.com/k11q/mini-moulinette). This project aims to carry on their legacy of helping students rigorously test their code, while introducing a modern, fast, and highly customizable Python-based architecture.
 
 ## Authors
-* Ivan Rabelo (rabeloivan) student at 42 - Creator & Lead Architect
-* Gemini 3.1 Pro - Co-Architect
+* Ivan Rabelo (rabeloivan)
+* Gemini 3.1 Pro
 
 ## Contributors
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute to the test harnesses or framework core.
 
 ## License
-This project is licensed under the MIT license. See the `LICENSE` file for details.
+This project is licensed under the MIT license. See the [`LICENSE`](https://github.com/rabeloivan/Geminette/blob/main/LICENSE) file for details.
